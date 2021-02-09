@@ -1,0 +1,1 @@
+(()=>{var o;console.log("Hola mundo sin configuración con webpack 😱"),(o=console).log.apply(o,[1,2,3])})();
