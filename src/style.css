@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Chalet";
+    font-style: normal;
+    font-weight: normal;
+    /* src: url('./assets/chalet.woff') format("woff"); */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,4 +19,18 @@ html {
 body {
     background-color: #2b3a42;
     color: #8dd6f9;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.icon {
+    max-width: 4rem;
 }

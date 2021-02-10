@@ -34,6 +34,10 @@ module.exports = {
                 test: /\.(jpe?g|png|gif|svg|webp)$/i,
                 use: ["file-loader?name=assets/[name].[ext]"],
             },
+            {
+                test: /\.(woff|tff)$/i,
+                use: ["file-loader?name=assets/[name].[ext]"],
+            },
         ],
     },
     plugins: [
