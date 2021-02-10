@@ -1,7 +1,7 @@
 import style from "./style.css";
 import logo from "./assets/webpack.svg";
 import data from "./data.json";
-import {HelloWorld} from "./components/helloWorld.ts";
+import {HelloWorld} from "./components/helloWorld.js";
 
 
 
